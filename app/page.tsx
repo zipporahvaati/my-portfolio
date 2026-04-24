@@ -15,10 +15,10 @@ export default function Home() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative w-full max-w-4xl space-y-12 text-black">
+      <div className="relative w-full max-w-4xl text-black">
 
         {/* HERO */}
-        <section className="text-center space-y-5">
+        <section className="text-center space-y-5 mb-12">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-indigo-700 via-purple-600 to-pink-500 text-transparent bg-clip-text">
             Hey there, I'm Zippy 👋
           </h1>
@@ -40,7 +40,7 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section className="bg-white/60 backdrop-blur border border-white/40 rounded-2xl p-8">
+        <section className="bg-white/60 backdrop-blur border border-white/40 rounded-2xl p-8 mb-12">
           <h2 className="text-2xl font-semibold text-indigo-600 mb-3">
             About Me
           </h2>
@@ -50,7 +50,7 @@ export default function Home() {
         </section>
 
         {/* PROJECTS */}
-        <section className="space-y-4">
+        <section className="space-y-4 mb-12">
           <h2 className="text-2xl font-semibold text-indigo-600">Projects</h2>
 
           <div className="grid md:grid-cols-2 gap-4">
@@ -80,11 +80,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CHATBOT */}
-        <Chat />
+        {/* CHATBOT (controlled spacing here) */}
+        <div className="mt-4 mb-10">
+          <Chat />
+        </div>
 
         {/* CONTACT */}
-        <section className="text-center bg-white/60 backdrop-blur border border-white/40 rounded-2xl p-8 space-y-4">
+        <section className="text-center bg-white/60 backdrop-blur border border-white/40 rounded-2xl p-8 space-y-4 mb-12">
 
           <h2 className="text-2xl font-semibold text-indigo-600">
             Let’s Connect

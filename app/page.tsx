@@ -74,22 +74,20 @@ export default function Home() {
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
-              <h3 className="font-semibold"> 🚨🎗️Cancer AI Surveillance System  </h3>
+              <h3 className="font-semibold">🛒⚙️ Brazillian E-Commer Pipeline </h3>
               <p className="text-sm mt-2">
-			  An AI-enhanced data engineering pipeline for cancer surveillance and early warning analytics in Africa.
-			  The system processes and transforms health data to detect trends and support predictive insights on cancer patterns across countries.
-			  This project is inspired by UN Sustainable Development Goals (Good Health & Well-being)
-			  This project is built using python and deployed on Google Cloud.
-               
+			  An end-to-end analytics platform for Brazilian e-commerce data, integrating ETL pipelines, 
+			  SQL-based data modeling, and BI dashboards to deliver insights on sales performance,
+			  customer segmentation, and business KPIs.The datasets are from Kaggle.com
 			 
               </p>
 
               <a
-                href="https://iitasamplekpidashboard-ldjmxg6jehbwm4jqwofxrx.streamlit.app/"
+                href="https://colab.research.google.com/drive/137V_GAa2bfgUGyNBE09xWhhjnEfRG4N8#scrollTo=DBDmAlIpmuv8"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Google Colab →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -173,7 +171,7 @@ export default function Home() {
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Streamlit →
               </a>
             </div>
 
@@ -189,7 +187,7 @@ export default function Home() {
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Vercel →
               </a>
 				
               </p>

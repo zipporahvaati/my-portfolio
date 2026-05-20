@@ -28,7 +28,7 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-3 flex-wrap pt-4">
-            {["Data Engineering", "machine learning", "API Intergraions","Business Intelligence dashboards", "Cloud Computing ", "Web Applications"].map((skill) => (
+            {["Data Engineering", "machine learning", "API Integrations","Business Intelligence dashboards", "Cloud Computing ", "Web Applications"].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-1 bg-white/30 border border-white/40 rounded-full text-sm backdrop-blur"
@@ -74,7 +74,7 @@ export default function Home() {
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
-              <h3 className="font-semibold">🛒⚙️ Brazillian E-Commer Pipeline </h3>
+              <h3 className="font-semibold">🛒⚙️ Brazilian E-Commerce Pipeline </h3>
               <p className="text-sm mt-2">
 			  An end-to-end analytics platform for Brazilian e-commerce data, integrating ETL pipelines, 
 			  SQL-based data modeling, and BI dashboards to deliver insights on sales performance,
@@ -93,7 +93,7 @@ export default function Home() {
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
               <h3 className="font-semibold"> 🤖🔐Fintech Fraud Detection System </h3>
               <p className="text-sm mt-2">
-                A fintech mobile money system built with python(Flask) and enhanced with a machine learning model to detect fraudulent transactions.
+                A fintech mobile money system built with Python(Flask) and enhanced with a machine learning model to detect fraudulent transactions.
 				The system handles wallet operations such as balance management, deposits and transfers
 				while using a Random Forest model to flag suspicious activity based on transaction patterns.
 				This project is inspired by MTN Mobile Money use case
@@ -144,8 +144,8 @@ export default function Home() {
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
               <h3 className="font-semibold">📊 M-KOPA Business Intelligence Project </h3>
               <p className="text-sm mt-2">
-                A Business Intelligence Project Stimulating real world analytics for M-kopa Kenya
-				Foucing on regional performance,DSR churn and commisssion efficiency.
+                A Business Intelligence Project simulating real-world analytics for M-kopa Kenya
+				Focusing on regional performance,DSR churn and commission efficiency.
 				It combines advanced SQL analysis, Excel modeling, and dashboard design to evaluate operational and revenue trends
 				The project delivers data-driven insights and strategic recommendations to support executive decision-making.
               </p>

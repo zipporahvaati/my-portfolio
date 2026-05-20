@@ -76,10 +76,11 @@ export default function Home() {
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
               <h3 className="font-semibold">🛒⚙️ Brazilian E-Commerce Pipeline </h3>
               <p className="text-sm mt-2">
-			  An end-to-end analytics platform for Brazilian e-commerce data, integrating ETL pipelines, 
-			  SQL-based data modeling, and BI dashboards to deliver insights on sales performance,
-			  customer segmentation, and business KPIs.The datasets are from Kaggle.com
-			 
+
+			  An end-to-end data lakehouse utilizing a Medallion Architecture (Bronze, Silver, Gold layers)inside Google Colab 
+			  Engineered Python (Pandas) pipelines to transform raw, multi-relational
+			  transactional CSVs into an optimized Star Schema model for scalable downstream business intelligence.
+			
               </p>
 
               <a

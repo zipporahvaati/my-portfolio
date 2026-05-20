@@ -155,7 +155,7 @@ export default function Home() {
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                Download project on Github →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -209,7 +209,7 @@ export default function Home() {
           </h2>
 
           <p>
-            Open to Data Engineering, Cloud & AI consultancy 🚀
+            Open to Data Engineering, Cloud & AI Roles🚀
           </p>
 
           <div className="flex flex-col items-center gap-3">

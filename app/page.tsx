@@ -20,7 +20,7 @@ export default function Home() {
         {/* HERO */}
         <section className="text-center space-y-5 mb-12">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-indigo-700 via-purple-600 to-pink-500 text-transparent bg-clip-text">
-            Hey there, I'm Zippy 👋
+            Hey there, I'm Zippy 👋..
           </h1>
 
           <p className="text-lg">
@@ -28,7 +28,7 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-3 flex-wrap pt-4">
-            {["Data Engineering", "AI Automation", "API Intergraions","Business Intelligence dashboards", "Cloud Computing ", "Web Applications"].map((skill) => (
+            {["Data Engineering", "machine learning", "API Intergraions","Business Intelligence dashboards", "Cloud Computing ", "Web Applications"].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-1 bg-white/30 border border-white/40 rounded-full text-sm backdrop-blur"
@@ -66,11 +66,11 @@ export default function Home() {
               </p>
 
               <a
-                href="https://iitasamplekpidashboard-ldjmxg6jehbwm4jqwofxrx.streamlit.app/"
+                href="https://github.com/zipporahvaati/Telco_CDR_data_pipeline"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Github→
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -87,7 +87,7 @@ export default function Home() {
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project on Google Colab →
+                View Project on Colab →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -101,11 +101,11 @@ export default function Home() {
               </p>
 
               <a
-                href="https://github.com/zipporahvaati/Python_Flask_Mobile_Money_App/tree/main"
+                href="https://github.com/zipporahvaati/Python_Flask_Mobile_Money_App"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Github →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -118,11 +118,11 @@ export default function Home() {
               </p>
 
               <a
-                href="https://iitasamplekpidashboard-ldjmxg6jehbwm4jqwofxrx.streamlit.app/"
+                href="https://github.com/zipporahvaati/A_Car_Hire_System"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Github →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -134,11 +134,11 @@ export default function Home() {
               </p>
 
               <a
-                href="https://iitasamplekpidashboard-ldjmxg6jehbwm4jqwofxrx.streamlit.app/"
+                href="https://github.com/zipporahvaati/Mombasa_Unemployemt_Data_Engineering"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
-                View Project →
+                View Project on Github →
               </a>
             </div>
 			<div className="bg-white/60 backdrop-blur border border-white/40 p-6 rounded-2xl">
@@ -151,7 +151,7 @@ export default function Home() {
               </p>
 
               <a
-                href="https://iitasamplekpidashboard-ldjmxg6jehbwm4jqwofxrx.streamlit.app/"
+                href="https://github.com/zipporahvaati/MKOPA-Kenya-Business-Intelligence-Case-Study"
                 target="_blank"
                 className="inline-block mt-3 text-green-600 hover:text-indigo-500"
               >
